@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function SecondBlog() {
   return (
     <>
-      <div className="mx-auto max-w-screen-lg pt-20 px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
+      <div className="mx-auto max-w-screen-lg px-4 py-10 pt-20 sm:px-6 lg:px-8 lg:py-14">
         <div className="mx-auto mb-10 max-w-2xl text-center lg:mb-14">
           <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">
             Insights

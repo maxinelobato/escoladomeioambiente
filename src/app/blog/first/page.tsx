@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function FirstBlog() {
   return (
     <>
-      <div className="-top-40 mx-auto max-w-screen-xl pt-20 px-4 pb-8 sm:px-6 lg:px-2">
+      <div className="-top-40 mx-auto max-w-screen-xl px-4 pb-8 pt-20 sm:px-6 lg:px-2">
         <div className="gap-y-8">
           <div className="lg:col-span-2">
             <div className="py-8">
@@ -247,7 +247,7 @@ export default function FirstBlog() {
                         </svg>
                         875
                         <span
-                          className="hs-tooltip-content invisible absolute z-10 inline-block rounded bg-gray-900 px-2 py-1 text-xs font-medium text-white opacity-0 shadow-sm transition-opacity hs-tooltip-shown:visible hs-tooltip-shown:opacity-100"
+                          className="hs-tooltip-content hs-tooltip-shown:visible hs-tooltip-shown:opacity-100 invisible absolute z-10 inline-block rounded bg-gray-900 px-2 py-1 text-xs font-medium text-white opacity-0 shadow-sm transition-opacity"
                           role="tooltip"
                         >
                           Like
@@ -278,7 +278,7 @@ export default function FirstBlog() {
                         </svg>
                         16
                         <span
-                          className="hs-tooltip-content invisible absolute z-10 inline-block rounded bg-gray-900 px-2 py-1 text-xs font-medium text-white opacity-0 shadow-sm transition-opacity hs-tooltip-shown:visible hs-tooltip-shown:opacity-100"
+                          className="hs-tooltip-content hs-tooltip-shown:visible hs-tooltip-shown:opacity-100 invisible absolute z-10 inline-block rounded bg-gray-900 px-2 py-1 text-xs font-medium text-white opacity-0 shadow-sm transition-opacity"
                           role="tooltip"
                         >
                           Comment
@@ -313,7 +313,7 @@ export default function FirstBlog() {
                         Share
                       </button>
                       <div
-                        className="hs-dropdown-menu duration z-10 mb-1 hidden w-56 rounded-xl bg-gray-900 p-2 opacity-0 shadow-md transition-[opacity,margin] hs-dropdown-open:opacity-100"
+                        className="hs-dropdown-menu duration hs-dropdown-open:opacity-100 z-10 mb-1 hidden w-56 rounded-xl bg-gray-900 p-2 opacity-0 shadow-md transition-[opacity,margin]"
                         aria-labelledby="blog-article-share-dropdown"
                       >
                         <a

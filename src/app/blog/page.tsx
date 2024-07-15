@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <>
-      <div className="-top-40 mx-auto max-w-screen-xl mt-20 px-4 py-0 pb-10 sm:px-0 sm:py-10">
+      <div className="-top-40 mx-auto mt-20 max-w-screen-xl px-4 py-0 pb-10 sm:px-0 sm:py-10">
         <div className="mx-auto mb-10 max-w-2xl text-center lg:mb-14">
           <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">
             Insights

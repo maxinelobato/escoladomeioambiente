@@ -1,5 +1,5 @@
 import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
-import { ButtonFloat } from './ButtonCta'
+import { ButtonFloat } from './Buttons/ButtonCta'
 
 export function ButtonFloatWttp() {
   return (

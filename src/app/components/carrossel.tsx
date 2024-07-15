@@ -27,7 +27,7 @@ export function Carrossel() {
           <CarouselContent>
             <CarouselItem>
               <div className="overflow-hidden rounded-xl">
-                <div className="flex h-[30rem] flex-col bg-[url('../../public/assets/image1.jpg')] bg-cover bg-center bg-no-repeat ">
+                <div className="flex h-[30rem] flex-col bg-[url('../../public/assets/image1.jpg')] bg-cover bg-center bg-no-repeat">
                   <div className="mt-auto w-2/3 pb-5 ps-5 md:max-w-lg md:pb-10 md:ps-10">
                     <span className="block text-white">Nike React</span>
                     <span className="block text-xl text-white md:text-3xl">
@@ -47,7 +47,7 @@ export function Carrossel() {
             </CarouselItem>
             <CarouselItem>
               <div className="overflow-hidden rounded-xl shadow-lg shadow-black/30">
-                <div className="flex h-[30rem] flex-col bg-[url('../../public/assets/image2.jpg')] bg-cover bg-center bg-no-repeat ">
+                <div className="flex h-[30rem] flex-col bg-[url('../../public/assets/image2.jpg')] bg-cover bg-center bg-no-repeat">
                   <div className="mt-auto w-2/3 pb-5 ps-5 md:max-w-lg md:pb-10 md:ps-10">
                     <span className="block text-white">Nike React</span>
                     <span className="block text-xl text-white md:text-3xl">
@@ -67,7 +67,7 @@ export function Carrossel() {
             </CarouselItem>
             <CarouselItem>
               <div className="overflow-hidden rounded-xl shadow-lg shadow-black/30">
-                <div className="flex h-[30rem] flex-col bg-[url('../../public/assets/image3.webp')] bg-cover bg-center bg-no-repeat ">
+                <div className="flex h-[30rem] flex-col bg-[url('../../public/assets/image3.webp')] bg-cover bg-center bg-no-repeat">
                   <div className="mt-auto w-2/3 pb-5 ps-5 md:max-w-lg md:pb-10 md:ps-10">
                     <span className="block text-white">Nike React</span>
                     <span className="block text-xl text-white md:text-3xl">
