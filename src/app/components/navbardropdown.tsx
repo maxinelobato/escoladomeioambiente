@@ -45,7 +45,7 @@ export function NavbarDropdown() {
                       href="/"
                       className={
                         currentPath === '/'
-                          ? 'h-auto w-full text-sm font-semibold text-green-500 transition-colors'
+                          ? 'text-sm font-semibold text-green-500'
                           : 'font-semibold text-black'
                       }
                       aria-label="home"
@@ -54,7 +54,7 @@ export function NavbarDropdown() {
                     </NavigationMenuLink>
                   </NavigationMenuItem>
                   <NavigationMenuItem>
-                    <NavigationMenuTrigger className="font-semibold text-black">
+                    <NavigationMenuTrigger className="font-semibold text-black hover:text-green-500">
                       Cursos
                     </NavigationMenuTrigger>
                     <NavigationMenuContent>
@@ -64,45 +64,43 @@ export function NavbarDropdown() {
                           href="/"
                           className={
                             currentPath === '/'
-                              ? 'flex h-auto w-full flex-none items-center justify-start gap-2 rounded-md p-3 text-sm font-semibold text-black transition-colors hover:bg-black/5 hover:text-green-500 focus:bg-black/5 focus:text-black focus:outline-none data-[active]:bg-black/50 data-[state=open]:bg-black/50'
-                              : 'font-semibold text-green-500'
+                              ? 'text-sm font-semibold'
+                              : 'font-semibold text-black'
                           }
                         >
-                          Re-usable components built using Radix UI and Tailwind
-                          CSS.
+                          Curso 1
                         </ListItem>
                         <ListItem
                           key="home"
                           href="/"
                           className={
                             currentPath === '/'
-                              ? 'flex h-auto w-full flex-none items-center justify-start gap-2 rounded-md p-3 text-sm font-semibold text-black transition-colors hover:bg-black/5 hover:text-green-500 focus:bg-black/5 focus:text-black focus:outline-none data-[active]:bg-black/50 data-[state=open]:bg-black/50'
-                              : 'font-semibold text-green-500'
+                              ? 'text-sm font-semibold'
+                              : 'font-semibold text-black'
                           }
                         >
-                          How to install dependencies and structure your app.
+                          Curso 2
                         </ListItem>
                         <ListItem
                           key="home"
                           href="/"
                           className={
                             currentPath === '/'
-                              ? 'flex h-auto w-full flex-none items-center justify-start gap-2 rounded-md p-3 text-sm font-semibold text-black transition-colors hover:bg-black/5 hover:text-green-500 focus:bg-black/5 focus:text-black focus:outline-none data-[active]:bg-black/50 data-[state=open]:bg-black/50'
-                              : 'font-semibold text-green-500'
+                              ? 'text-sm font-semibold'
+                              : 'font-semibold text-black'
                           }
                         >
-                          Styles for headings, paragraphs, lists...etc
+                          Curso 3
                         </ListItem>
                       </ul>
                     </NavigationMenuContent>
                   </NavigationMenuItem>
                   <NavigationMenuItem>
                     <NavigationMenuLink
-                      key="blog"
                       href="/blog"
                       className={
                         currentPath === '/blog'
-                          ? 'h-auto w-full text-sm font-semibold text-green-500 transition-colors'
+                          ? 'text-sm font-semibold text-green-500'
                           : 'font-semibold text-black'
                       }
                       aria-label="blog"

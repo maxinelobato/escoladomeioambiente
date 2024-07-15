@@ -38,7 +38,7 @@ export default function FormContact() {
             <Button type="submit" className="w-full">
               Enviar
             </Button>
-            <Button type="reset" className="w-full" variant="secondary">
+            <Button type="reset" className="w-full" variant="outline">
               Cancelar
             </Button>
           </div>
