@@ -7,8 +7,6 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from '@/components/ui/carousel'
 
 export function Carrossel() {
@@ -18,7 +16,7 @@ export function Carrossel() {
 
   return (
     <>
-      <div className="mx-auto max-w-screen-xl px-4 pb-8 sm:px-14">
+      <div className="mx-auto max-w-screen-sm px-4 pb-8 sm:max-w-screen-xl sm:px-2">
         <Carousel
           plugins={[plugin.current]}
           onMouseEnter={plugin.current.stop}
@@ -86,10 +84,7 @@ export function Carrossel() {
               </div>
             </CarouselItem>
           </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
         </Carousel>
-        {/* </div> */}
       </div>
     </>
   )

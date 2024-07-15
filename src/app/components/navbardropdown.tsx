@@ -29,7 +29,7 @@ export function NavbarDropdown() {
           <div className="container flex h-16 items-center justify-end px-4 md:px-6">
             <div className="container flex px-0">
               <Link
-                href="#"
+                href="/"
                 className="flex items-center gap-2"
                 prefetch={false}
               >
@@ -158,13 +158,19 @@ export function NavbarDropdown() {
                     </Link>
                     <nav className="mt-4 grid gap-2">
                       <Link
+                        key="home"
                         href="/"
-                        className="hover:bg-accent hover:text-accent-foreground flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium transition-colors"
+                        className={
+                          currentPath === '/'
+                            ? 'hover:bg-accent flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium text-green-500'
+                            : 'flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium text-black'
+                        }
+                        aria-label="home"
                       >
                         Início
                       </Link>
                       <Collapsible className="grid gap-2 bg-white/40">
-                        <CollapsibleTrigger className="flex items-center justify-between bg-white/40 px-3 py-2 text-sm font-medium transition-colors hover:bg-white/40 [&[data-state=open]>svg]:rotate-90">
+                        <CollapsibleTrigger className="flex items-center justify-between bg-white/40 px-3 py-2 text-sm font-medium transition-colors hover:bg-white/40 hover:text-green-500 [&[data-state=open]>svg]:rotate-90">
                           Cursos
                           <ChevronRightIcon className="h-5 w-5 transition-transform" />
                         </CollapsibleTrigger>
@@ -202,20 +208,38 @@ export function NavbarDropdown() {
                         </CollapsibleContent>
                       </Collapsible>
                       <Link
+                        key="blog"
                         href="/blog"
-                        className="hover:bg-accent hover:text-accent-foreground flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium transition-colors"
+                        className={
+                          currentPath === '/blog'
+                            ? 'hover:bg-accent flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium text-green-500'
+                            : 'flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium text-black'
+                        }
+                        aria-label="home"
                       >
                         Blog
                       </Link>
                       <Link
+                        key="ebooks"
                         href="/ebooks"
-                        className="hover:bg-accent hover:text-accent-foreground flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium transition-colors"
+                        className={
+                          currentPath === '/ebooks'
+                            ? 'hover:bg-accent flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium text-green-500'
+                            : 'flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium text-black'
+                        }
+                        aria-label="ebooks"
                       >
                         E-Books
                       </Link>
                       <Link
+                        key="contact"
                         href="/contact"
-                        className="hover:bg-accent hover:text-accent-foreground flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium transition-colors"
+                        className={
+                          currentPath === '/contact'
+                            ? 'hover:bg-accent flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium text-green-500'
+                            : 'flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium text-black'
+                        }
+                        aria-label="contact"
                       >
                         Contato
                       </Link>
